@@ -1,0 +1,123 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/***** GRID *****/
+.full-width{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.half-width{
+    width: 600px;
+    float: left;
+}
+.third-width{
+    width: 390px;
+    float: left;
+}
+/***** Header *****/
+header{
+    height: 375px;
+}
+header h1 { 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: black;
+    text-transform: uppercase;
+    width: 290px;
+    float: left;
+    padding-left: 5px
+}
+header h1 span{
+    color: #77a466
+}
+nav {
+    float: right;
+    padding: 10px 10px 0 0;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    color: #77a466;
+    padding-left: 28px; 
+}
+#image{
+    border-top: 2px solid #77a466;
+    border-bottom: 2px solid #77a466;
+}
+/***** About section *****/
+#about .full-width{
+    padding: 10px 5px;
+}
+#about h2{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;    
+    font-size: 18px;
+    color: #77a466;
+    padding-left: 5px;
+}
+#about p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: black;
+    line-height: 25px;
+    padding-left: 5px;
+}
+/***** Location, review, and menu section *****/
+#lrm{
+    padding-left: 10px;
+}
+#lrm .full-width{
+    border-top: 2px solid #dedbdc;
+    border-bottom: 2px solid #dedbdc;
+}
+#lrm #middle-section{
+    border-left: 2px solid #dedbdc;
+    border-right: 2px solid #dedbdc;
+}
+#lrm h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase; 
+    font-weight: bold;
+}
+#lrm #first-section #falafel, #burrito, #tamales{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #77a466;
+    text-transform: capitalize;
+}
+#lrm #reviews{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding-left: 25px;
+    padding-right: 30px;
+}
+#lrm #awesome-reviews{
+    padding-left: 25px;
+}
+#lrm #address{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    padding-left: 25px;
+}
+#lrm #contact{
+    padding-left: 25px;
+}
+#footer{
+    font-family: 'Montserrat', sans-serif;
+    text-transform:uppercase;
+    text-align: center;
+    font-size: 16px;
+}
+#footer span{
+    font-family: 'Galada', cursive;
+    color: #77a466;
+    text-transform: none;
+}
